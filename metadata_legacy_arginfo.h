@@ -7,7 +7,7 @@ ZEND_END_ARG_INFO()
 ZEND_BEGIN_ARG_INFO_EX(arginfo_class_RdKafka_Metadata_getOrigBrokerId, 0, 0, 0)
 ZEND_END_ARG_INFO()
 
-#define arginfo_class_RdKafka_Metadata_getOrigBrokerName arginfo_class_RdKafka_Metadata_getOrigBrokerId
+ define arginfo_class_RdKafka_Metadata_getOrigBrokerName arginfo_class_RdKafka_Metadata_getOrigBrokerId
 
 #define arginfo_class_RdKafka_Metadata_getBrokers arginfo_class_RdKafka_Metadata_getOrigBrokerId
 
@@ -39,3 +39,4 @@ static zend_class_entry *register_class_RdKafka_Metadata(void)
 
 	return class_entry;
 }
+ 
